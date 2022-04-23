@@ -4,6 +4,7 @@
 	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	 version="3.1">
+
     <servlet>
         <servlet-name>HomeController</servlet-name>
         <servlet-class>controller.HomeController</servlet-class>
@@ -37,7 +38,7 @@
         <servlet-name>DetailController</servlet-name>
         <url-pattern>/detail</url-pattern>
     </servlet-mapping>
-
+    
     <session-config>
         <session-timeout>
             30
