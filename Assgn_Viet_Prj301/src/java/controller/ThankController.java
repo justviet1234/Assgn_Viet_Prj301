@@ -18,6 +18,7 @@ import jakarta.servlet.http.HttpServletResponse;
  *
  * @author Admin
  */
+
 @WebServlet(name = "ThankController", urlPatterns = {"/thank"})
 public class ThankController extends HttpServlet {
 
